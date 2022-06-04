@@ -9,7 +9,7 @@
 
      <!-- JDBC -->
         <property name="hibernate.connection.username">postgres</property>
-        <property name="hibernate.connection.password">Sparky2014!!</property>
+        <property name="hibernate.connection.password">password!!</property>
         <property name="hibernate.connection.url">jdbc:postgresql://project-2-synergy.c298uwttvwjb.us-east-1.rds.amazonaws.com:5432/postgres?currentSchema=hibernate</property>
         <property name="hibernate.connection.driver_class">org.postgresql.Driver</property>
         <!-- Hibernate Properties -->
@@ -25,6 +25,7 @@
 
         <!-- We HAVE TO map our classes here in order for them to get picked up by Hibernate-->
         <mapping class="com.revature.models.Users"/>
+        <mapping class="com.revature.models.Games"/>
        
         
         

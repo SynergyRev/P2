@@ -10,6 +10,7 @@ public class Users {
 	private double balance;
 	private int creditCard;
 	private String address;
+	
 	public int getId() {
 		return id;
 	}
