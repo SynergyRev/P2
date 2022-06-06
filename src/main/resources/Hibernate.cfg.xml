@@ -9,8 +9,8 @@
 
      <!-- JDBC -->
         <property name="hibernate.connection.username">postgres</property>
-        <property name="hibernate.connection.password">password!!</property>
-        <property name="hibernate.connection.url">jdbc:postgresql://project-2-synergy.c298uwttvwjb.us-east-1.rds.amazonaws.com:5432/postgres?currentSchema=hibernate</property>
+        <property name="hibernate.connection.password">password</property>
+        <property name="hibernate.connection.url">jdbc:postgresql://project-2-synergy.c298uwttvwjb.us-east-1.rds.amazonaws.com:5432/postgres?currentSchema=postgres3</property>
         <property name="hibernate.connection.driver_class">org.postgresql.Driver</property>
         <!-- Hibernate Properties -->
         <property name="hibernate.dialect">org.hibernate.dialect.PostgreSQLDialect</property>
